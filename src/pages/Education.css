@@ -1,0 +1,49 @@
+.container {  
+  max-width: 800px;  
+  margin: 0 auto;  
+  padding: 20px;  
+}  
+
+.card {  
+  border-radius: 8px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+  margin-bottom: 20px;  
+  transition: transform 0.3s ease;  
+}  
+
+.card:hover {  
+  transform: scale(1.05);  
+}  
+
+.card-body {  
+  padding: 50px;  
+}  
+
+.custom-card {  
+  background-color: #f9f9f9; /* Light background color */  
+  border: 1px solid #ddd; /* Card border */  
+  padding: 15px; /* Internal padding */  
+}  
+
+.school-logo {  
+  width: 55px; /* Control image size */  
+  height: auto; /* Maintain aspect ratio */  
+  margin-right: 15px; /* Space between image and title */  
+}  
+
+.card-title {  
+  font-size: 1.5rem; /* Title font size */  
+  font-weight: bold; /* Bold title */  
+  color: #007bff; /* Title color */  
+}  
+
+.card-text {  
+  font-size: 1.1rem; /* Subtitle font size */  
+  color: #555; /* Subtitle color for better contrast */  
+}  
+
+h2.text-center {  
+  font-size: 2rem; /* Heading font size */  
+  color: #333; /* Heading color */  
+  font-weight: bold; /* Bold heading */  
+}

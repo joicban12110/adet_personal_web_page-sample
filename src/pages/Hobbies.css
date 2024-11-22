@@ -1,0 +1,23 @@
+.hobby-icon {  
+  width: 100px; 
+  height: 100px;  
+  margin-bottom: 10px;  
+  object-fit: contain;   
+}  
+
+h5 {  
+  margin-top: 10px;  
+  font-size: 1.2em;  
+}  
+
+p {  
+  font-size: 1em;  
+  color: #555;  
+}
+
+@media (max-width: 768px) {  
+  .hobby-icon {  
+      width: 80px; 
+      height: 80px;  
+  }  
+}
